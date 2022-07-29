@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72CA6436289121A900D115D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CA6435289121A900D115D5 /* AppDelegate.m */; };
+		72CA6439289121A900D115D5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CA6438289121A900D115D5 /* SceneDelegate.m */; };
+		72CA6441289121AC00D115D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CA6440289121AC00D115D5 /* Assets.xcassets */; };
+		72CA6444289121AC00D115D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CA6442289121AC00D115D5 /* LaunchScreen.storyboard */; };
+		72CA6447289121AC00D115D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CA6446289121AC00D115D5 /* main.m */; };
+		72CA645228928FD300D115D5 /* FlightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CA645128928FD300D115D5 /* FlightModel.m */; };
+		72CA645C2892957400D115D5 /* FlightStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CA645B2892957400D115D5 /* FlightStore.m */; };
+		72CA646A2892CA8300D115D5 /* FlightListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CA64682892CA8300D115D5 /* FlightListViewController.m */; };
+		72CA646B2892CA8300D115D5 /* FlightListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CA64692892CA8300D115D5 /* FlightListViewController.xib */; };
+		72CA64702892E80D00D115D5 /* FlightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CA646E2892E80D00D115D5 /* FlightTableViewCell.m */; };
+		72CA64712892E80D00D115D5 /* FlightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CA646F2892E80D00D115D5 /* FlightTableViewCell.xib */; };
+		72CA647528930B4D00D115D5 /* BookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CA647328930B4D00D115D5 /* BookingViewController.m */; };
+		72CA647628930B4D00D115D5 /* BookingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CA647428930B4D00D115D5 /* BookingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72CA6431289121A900D115D5 /* Flight booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flight booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CA6434289121A900D115D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72CA6435289121A900D115D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72CA6437289121A900D115D5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		72CA6438289121A900D115D5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		72CA6440289121AC00D115D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72CA6443289121AC00D115D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72CA6445289121AC00D115D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CA6446289121AC00D115D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72CA645028928FD300D115D5 /* FlightModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightModel.h; sourceTree = "<group>"; };
+		72CA645128928FD300D115D5 /* FlightModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightModel.m; sourceTree = "<group>"; };
+		72CA645A2892957400D115D5 /* FlightStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightStore.h; sourceTree = "<group>"; };
+		72CA645B2892957400D115D5 /* FlightStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightStore.m; sourceTree = "<group>"; };
+		72CA64672892CA8300D115D5 /* FlightListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightListViewController.h; sourceTree = "<group>"; };
+		72CA64682892CA8300D115D5 /* FlightListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightListViewController.m; sourceTree = "<group>"; };
+		72CA64692892CA8300D115D5 /* FlightListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightListViewController.xib; sourceTree = "<group>"; };
+		72CA646D2892E80D00D115D5 /* FlightTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightTableViewCell.h; sourceTree = "<group>"; };
+		72CA646E2892E80D00D115D5 /* FlightTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightTableViewCell.m; sourceTree = "<group>"; };
+		72CA646F2892E80D00D115D5 /* FlightTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightTableViewCell.xib; sourceTree = "<group>"; };
+		72CA647228930B4D00D115D5 /* BookingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookingViewController.h; sourceTree = "<group>"; };
+		72CA647328930B4D00D115D5 /* BookingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookingViewController.m; sourceTree = "<group>"; };
+		72CA647428930B4D00D115D5 /* BookingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookingViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72CA642E289121A900D115D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72CA6428289121A900D115D5 = {
+			isa = PBXGroup;
+			children = (
+				72CA6433289121A900D115D5 /* Flight booking */,
+				72CA6432289121A900D115D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72CA6432289121A900D115D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72CA6431289121A900D115D5 /* Flight booking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72CA6433289121A900D115D5 /* Flight booking */ = {
+			isa = PBXGroup;
+			children = (
+				72CA645D2892A3BA00D115D5 /* Scenes */,
+				72CA64592892953300D115D5 /* Store */,
+				72CA6434289121A900D115D5 /* AppDelegate.h */,
+				72CA6435289121A900D115D5 /* AppDelegate.m */,
+				72CA6437289121A900D115D5 /* SceneDelegate.h */,
+				72CA6438289121A900D115D5 /* SceneDelegate.m */,
+				72CA6440289121AC00D115D5 /* Assets.xcassets */,
+				72CA6442289121AC00D115D5 /* LaunchScreen.storyboard */,
+				72CA6445289121AC00D115D5 /* Info.plist */,
+				72CA6446289121AC00D115D5 /* main.m */,
+			);
+			path = "Flight booking";
+			sourceTree = "<group>";
+		};
+		72CA644D289282C800D115D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72CA645028928FD300D115D5 /* FlightModel.h */,
+				72CA645128928FD300D115D5 /* FlightModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72CA64592892953300D115D5 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				72CA644D289282C800D115D5 /* Models */,
+				72CA645A2892957400D115D5 /* FlightStore.h */,
+				72CA645B2892957400D115D5 /* FlightStore.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		72CA645D2892A3BA00D115D5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				72CA645F2892A3E000D115D5 /* Booking */,
+				72CA645E2892A3CC00D115D5 /* FlightList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		72CA645E2892A3CC00D115D5 /* FlightList */ = {
+			isa = PBXGroup;
+			children = (
+				72CA646C2892E7EB00D115D5 /* FlightRow */,
+				72CA64672892CA8300D115D5 /* FlightListViewController.h */,
+				72CA64682892CA8300D115D5 /* FlightListViewController.m */,
+				72CA64692892CA8300D115D5 /* FlightListViewController.xib */,
+			);
+			path = FlightList;
+			sourceTree = "<group>";
+		};
+		72CA645F2892A3E000D115D5 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				72CA647228930B4D00D115D5 /* BookingViewController.h */,
+				72CA647328930B4D00D115D5 /* BookingViewController.m */,
+				72CA647428930B4D00D115D5 /* BookingViewController.xib */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		72CA646C2892E7EB00D115D5 /* FlightRow */ = {
+			isa = PBXGroup;
+			children = (
+				72CA646D2892E80D00D115D5 /* FlightTableViewCell.h */,
+				72CA646E2892E80D00D115D5 /* FlightTableViewCell.m */,
+				72CA646F2892E80D00D115D5 /* FlightTableViewCell.xib */,
+			);
+			path = FlightRow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72CA6430289121A900D115D5 /* Flight booking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72CA644A289121AC00D115D5 /* Build configuration list for PBXNativeTarget "Flight booking" */;
+			buildPhases = (
+				72CA642D289121A900D115D5 /* Sources */,
+				72CA642E289121A900D115D5 /* Frameworks */,
+				72CA642F289121A900D115D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flight booking";
+			productName = "Flight booking";
+			productReference = 72CA6431289121A900D115D5 /* Flight booking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72CA6429289121A900D115D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					72CA6430289121A900D115D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 72CA642C289121A900D115D5 /* Build configuration list for PBXProject "Flight booking" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72CA6428289121A900D115D5;
+			productRefGroup = 72CA6432289121A900D115D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72CA6430289121A900D115D5 /* Flight booking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72CA642F289121A900D115D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CA6444289121AC00D115D5 /* LaunchScreen.storyboard in Resources */,
+				72CA64712892E80D00D115D5 /* FlightTableViewCell.xib in Resources */,
+				72CA647628930B4D00D115D5 /* BookingViewController.xib in Resources */,
+				72CA646B2892CA8300D115D5 /* FlightListViewController.xib in Resources */,
+				72CA6441289121AC00D115D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72CA642D289121A900D115D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CA64702892E80D00D115D5 /* FlightTableViewCell.m in Sources */,
+				72CA6436289121A900D115D5 /* AppDelegate.m in Sources */,
+				72CA646A2892CA8300D115D5 /* FlightListViewController.m in Sources */,
+				72CA6447289121AC00D115D5 /* main.m in Sources */,
+				72CA6439289121A900D115D5 /* SceneDelegate.m in Sources */,
+				72CA645228928FD300D115D5 /* FlightModel.m in Sources */,
+				72CA645C2892957400D115D5 /* FlightStore.m in Sources */,
+				72CA647528930B4D00D115D5 /* BookingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72CA6442289121AC00D115D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72CA6443289121AC00D115D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72CA6448289121AC00D115D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72CA6449289121AC00D115D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72CA644B289121AC00D115D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AW3ZWSN4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flight booking/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dmitryshliugaev.Flight-booking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		72CA644C289121AC00D115D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AW3ZWSN4J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flight booking/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dmitryshliugaev.Flight-booking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72CA642C289121A900D115D5 /* Build configuration list for PBXProject "Flight booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CA6448289121AC00D115D5 /* Debug */,
+				72CA6449289121AC00D115D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72CA644A289121AC00D115D5 /* Build configuration list for PBXNativeTarget "Flight booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CA644B289121AC00D115D5 /* Debug */,
+				72CA644C289121AC00D115D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72CA6429289121A900D115D5 /* Project object */;
+}
